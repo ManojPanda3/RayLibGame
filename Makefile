@@ -7,8 +7,8 @@ SRC = ./src/main.cpp
 OUT = ./build/mygame
 
 # Flags for g++
-CFLAGS = -I$(INCLUDE_DIR)
-LDFLAGS = -L$(LIB_DIR) -lraylib
+CFLAGS = # -I$(INCLUDE_DIR)
+LDFLAGS = -lrayli
 
 # Build command
 all: $(SRC)
